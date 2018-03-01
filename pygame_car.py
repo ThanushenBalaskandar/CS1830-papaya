@@ -314,7 +314,7 @@ def game_loop():
                 and x + car_width <= papaya_startx + 50 :
                 score_game+=10
                 papaya_starty = -600
-                papaya_startx = random.randrange(100, display_width - 200)
+                papaya_startx = random.randrange(150, display_width - 150)
 
         pygame.display.update()
         clock.tick(60)
